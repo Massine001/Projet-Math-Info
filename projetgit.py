@@ -54,7 +54,7 @@ def Euler(y0, n, t0, T ):                    # La fonction Euler explicite avec 
 y,t = Euler(y0, n, t0, T)                    # L'appel de la fonction Euler            
 
 def sol(t):                                  # La solution exacte selon le choix de K   
-    g=np.zeros(n)
+    g = np.zeros(n)
     if choix == 1 :                              
         for i in range(n):
             g[i] = exp(0.5*t[i]*t[i])+20
