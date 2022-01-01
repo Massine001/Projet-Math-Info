@@ -1,7 +1,7 @@
 import numpy as np 
 import matplotlib.pyplot as plt
 from math import * 
-import time 
+
 
 n = int(input("Donner le nombre d'itr : "))
 choix = int(input("La fonction de K(t,y(t)):\n 1/ t\n 2/ ln(t)\n 3/ 2*ln(t))/(t*(1+ln(t)*ln(t))\n 4/ y(t)*ln(y(t))/(y(t)−Tamb)\n 5/ K est constante\n Votre choix : "))
@@ -127,7 +127,7 @@ def plotR(t,y,s):                             # Pour afficher les deux graphes (
     axe2 = y                                 # L'axe des Y 
     plt.figure()
     plt.title(" Figure -2- : Méthode de Runge  ")
-    plt.plot(axe1,axe2,c="red",label="solution approchee")              # runge-kutta
+    plt.plot(axe1,axe2,c="green",label="solution approchee")              # runge-kutta
     plt.plot(axe1,s,c="blue",label="solution exacte")
     plt.legend()
     plt.xlabel(' Temps ')
