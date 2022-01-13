@@ -1,4 +1,4 @@
-# Projet-Math-Info
+# Projet-fin-de-semestre
 En mathématique,plusieurs lois ou modèles existent .ces lois ne sont en fin de compte que la modélisation de phénomènes physique chimique ou mécanique tel que  ‘la loi de comportement’ .
 Toujous en cherchant  à comprendre ces phenomenes, des equations sont posés et etudiés. C’est  ainsi que se deroule le processue de creation de modeles mathematiques.
 le but de la modelisation est  principlalement : 
