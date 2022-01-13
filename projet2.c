@@ -122,7 +122,6 @@ int main(){
         scanf("%d",&k);
         t0 = 0;
         lamda = y0 - Tamb;
-
     }
     
     Euler(y0,n,t0,T,t,y,Tamb,choix);
